@@ -4,7 +4,7 @@ Rock Paper Scissors game that implements React.
 
 ## Setup Instructions
 
-1. Clone the repository
+1. Download ZIP and extract files
 2. Run 'npm install' to install dependencies
 3. Run 'npm run dev' to start server
 4. Follow localhost URL link (Ctrl + click)
