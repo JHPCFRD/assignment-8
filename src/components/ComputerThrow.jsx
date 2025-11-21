@@ -17,7 +17,7 @@ function ComputerThrow({ computerChoice, isAnimating, gameStarted }) {
           width="80"
           className={isAnimating ? 'thinking' : ''}
         />
-        <p>{computerChoice ? computerChoice : (gameStarted ? 'Thinking...' : 'Waiting...')}</p>
+        <p>{isAnimating ? 'Thinking...' : (gameStarted ? '' : 'Waiting...')}</p>
       </div>
     </div>
   );

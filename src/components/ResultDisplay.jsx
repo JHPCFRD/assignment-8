@@ -10,7 +10,7 @@ function ResultDisplay({ result, onPlayAgain }) {
   return (
     <div className="game-section">
       <h2>Results</h2>
-      <p><strong>{result || 'Make your choice!'}</strong></p>
+      <p><strong>{result}</strong></p>
       {result && (
         <button onClick={onPlayAgain}>Play Again</button>
       )}
